@@ -14,9 +14,10 @@ namespace ClassMetotDemo
             musteriManager.Ekle(3, "Ali", "Kutluay", 232.0m);
 
             musteriManager.Listele();
-            musteriManager.Sil();
+            musteriManager.Sil(2);
             musteriManager.Listele();
-            
+            musteriManager.Guncelle(1);
+            musteriManager.Listele();
             
         }
     }
